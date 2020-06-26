@@ -1,0 +1,8 @@
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 34px;
+
+  padding: 42px 54px 60px;
+  border-radius: 6px;
+}

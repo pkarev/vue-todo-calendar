@@ -1,5 +1,8 @@
+import './styles/index.scss';
+import 'normalize.css/normalize.css';
+
 import Vue from 'vue';
-import App from './components/App.vue';
+import App from '@/components/app/App.vue';
 import store from './store';
 
 Vue.config.productionTip = false
