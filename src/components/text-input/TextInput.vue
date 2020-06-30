@@ -24,9 +24,9 @@ export default class TextInput extends Vue
         };
     }
 
-    handleInput(evt): void
+    handleInput(value): void
     {
-        this.$emit(evt.target.value);
+        this.$emit('input', value);
     }
 }
 </script>

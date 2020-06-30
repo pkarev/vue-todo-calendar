@@ -1,0 +1,30 @@
+@import '@/variables.scss';
+
+.todo-list {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  padding: 30px;
+}
+
+.todo-list__title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.59375px;
+  color: #8C96AB;
+}
+
+.todo-list__list {
+  margin: 0;
+  margin-top: 16px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.todo-list__item {
+  margin-top: 16px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
